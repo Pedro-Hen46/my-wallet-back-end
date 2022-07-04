@@ -1,5 +1,5 @@
 import { getTransactions, postTransactions } from '../controllers/transactionsUserController.js';
-import validateUser from '../middlewars/validateUser.js';
+import validateUser from '../middlewares/validateUser.js';
 import { Router } from 'express';
 
 const router  = Router();
